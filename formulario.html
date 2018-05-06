@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+</head>
+<body>
+	<header>
+		<h1>Paguina Principal</h1>
+		<h2>HOla mndo</h2>
+		<a href="http://www.google.com">Ir google</a>
+		
+	</header>
+	<div>
+		<h2>Formulario</h2>
+		<form name="formulario" action="procesar.php" method="POST">
+			<label for="op">Nombre: </label>
+			<input type="text" name="nombre" placeholder="Escribe tu nombre" id="op" >
+			</br>
+			</br>
+			<label for="op1">Apellido: </label>
+			<input type="text" name="apellido" placeholder="Escribe tu apellido" id="op1" name="apellido">
+			</br>
+			</br>
+			<label for="op2">Telefono: </label>
+			<input type="text" name="telefono" id="op2" placeholder="ingrese su telefono" >
+			</br>
+			</br>
+			<label>Sexo: </label>
+			<input type="checkbox" name="sexo" >Hombre
+			<input type="checkbox" name="svcexo">Mujer
+			</br>
+			</br>
+			<label for="op4">Paises</label>
+			<select name="pais" id="op4">
+				<option value="Ecuador">Ecuador</option>
+				<option value="Colombia">Colombia</option>
+			</select>
+			</br>
+			</br>
+			<input type="submit" value="Enviar">
+
+		</form>
+	</div>
+</body>
+</html>
