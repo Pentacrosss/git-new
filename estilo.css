@@ -1,0 +1,17 @@
+body{
+	background: #272822;
+
+
+}
+h1{
+	background:#016A69;
+	font-size: 50px;
+	color:white;
+}
+div{
+	background:#CBCECD;
+	width: 50%; 
+	margin: 20px 100px;
+	padding: 20px;
+	border: 5px solid #000;
+}
