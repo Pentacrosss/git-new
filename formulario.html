@@ -12,7 +12,7 @@
 		<a href="http://www.google.com">Ir google</a>
 		
 	</header>
-	<div>
+	<div class="divf">
 		<h1>Primer mundo</h1>
 		<h2>Formulario</h2>
 		<form name="formulario" action="procesar.php" method="POST">
@@ -34,24 +34,20 @@
 			</br>
 			</br>
 			<label for="op4">Paises</label>
-			<select name="pais" id="op4">
+			<select name="pais" id="op4" onchange="mostrarBandera(this)">
 				<option value="Ecuador">Ecuador</option>
 				<option value="Colombia">Colombia</option>
 			</select>
+				<div class="bandera" id="bandera"></div>
 			</br>
 			</br>
-			<input type="submit" value="Enviar">
-
-		</form>
-	</div>
-	<script type="text/javascript"> 
-			var numbers=[33,55,4,88,7,9];
-
-			numbers.forEach(function(numbers){
+			<input class="boton" type="submit" value="Enviar">
 			
-				console.log(numbers);
-			});
-			alert('programando javascrip');
+		</form>
+		<button onclick="doClick()">Click me</button>
+	</div>
+	<script src="app.js" type="text/javascript"> 
+			
 
 	</script>
 </body>
